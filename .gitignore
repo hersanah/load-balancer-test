@@ -1,0 +1,26 @@
+# Terraform working directory and state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Variable files that may hold real values
+*.tfvars
+*.tfvars.json
+!dev.tfvars
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keys and secrets
+*.pem
+.env
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
